@@ -26,3 +26,11 @@ for i in range(4):
                             if n2==1 and st[i]==" " and st[j]==" " and st[k]==" " and terms!=0:
                                 print(st[l])
                                 terms-=1
+                            if terms==0:
+                                break
+                if terms==0:
+                    break
+        if terms==0:
+            break
+    if terms==0:
+        break
