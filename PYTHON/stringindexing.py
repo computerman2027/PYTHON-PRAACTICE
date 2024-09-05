@@ -1,0 +1,5 @@
+st=input("Enter a string : ")
+l=len(st)
+print(f"st[:l:-1] = {st[l:0:-1]}")
+print(f"st[:l:3] = {st[0:l:3]}")
+print(f"st[:l:-3] = {st[l:0:-3]}")
